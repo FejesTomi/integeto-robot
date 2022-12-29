@@ -1,0 +1,31 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="71L{S9F}LgOZWLWFMAQj" x="-11" y="-163"><statement name="HANDLER"><block type="device_show_leds" id="N?bkdBUP9;iOLJ7}GdIK"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        # . # . # 
+        . # . # . 
+        . # . # .
+        `</field></block></statement></block><block type="device_button_event" id="JfpRtz1$a:_]~^8H*6Z#" x="-15" y="141"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="controls_repeat_ext" id="nH)m|%SL:6=_SA?_bP7A"><value name="TIMES"><shadow type="math_whole_number" id="8BcC[*JPy)OKAAd68ZD2"><field name="NUM">4</field></shadow></value><statement name="DO"><block type="device_show_leds" id="0N.;xb4c?5jm=mgH+psx"><field name="LEDS">`
+        # . # . . 
+        . # # # . 
+        . . # . # 
+        . # . # . 
+        . # . # .
+        `</field><next><block type="device_show_leds" id=".Sx#Z+Yi,V1Z*RoMpB+)"><field name="LEDS">`
+        . # # . . 
+        . # # # . 
+        . . # . # 
+        . # . # . 
+        . # . # .
+        `</field></block></next></block></statement></block></statement></block><block type="device_button_event" id="xyd|xcKMEc.]~5H`V[CW" x="-14" y="754"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="controls_repeat_ext" id="~Xm#zB?*Vq8R2{G}ENr["><value name="TIMES"><shadow type="math_whole_number" id="P$#fWq+ssKB04iOZLz$p"><field name="NUM">4</field></shadow></value><statement name="DO"><block type="device_show_leds" id="/tm3{g0m|To0RkOPnh6I"><field name="LEDS">`
+        . . # . # 
+        . # # # . 
+        # . # . . 
+        . # . # . 
+        . # . # .
+        `</field><next><block type="device_show_leds" id="VCdzd[r3d1kH).iXd)SS"><field name="LEDS">`
+        . . # # . 
+        . # # # . 
+        # . # . . 
+        . # . # . 
+        . # . # .
+        `</field></block></next></block></statement></block></statement></block><block type="device_button_event" id="a-C9Pi:[ic_~@Eq%VNu|" x="-15" y="1369"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="basic_show_icon" id="?|hY#yV|YktPV6Ebs0SB"><field name="i">IconNames.Heart</field></block></statement></block></xml>
